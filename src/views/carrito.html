@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>SPARTA GYM</title>
+    <link rel="stylesheet" href='/css/carrito.css'>
+    <script src="https://kit.fontawesome.com/5b8d0b6d80.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <section class="logo-and-login-header">
+            
+            <i class="fas fa-bars menu-icono"></i>
+            
+            <a href="/" class="logo">
+            <img  src="/images/logo2.jpg" alt="LOGO">
+            </a>
+
+            <nav class="login-and-cart-icons">
+                <a href="login"><i class="fas fa-user-circle"></i></a>
+                <a href="carrito"><i class="fas fa-shopping-cart"></i></a>
+            </nav>
+        </section>
+
+        <div class="contenedor-banner">
+        <img class="banner" src="/images/banner1.jpg" alt="banner">
+        </div>
+    
+</header>
+    
+    <main class="main">
+        <br>
+        <div>
+            <h3>Mi carrito</h3>
+            <br>
+            <table id="carrito" class="tabla">
+                <thead>
+                    <tr>
+                        <th style="width:50%">Producto</th>
+                        <th style="width:10%">Precio</th>
+                        <th style="width:8%">Cantidad</th>
+                        <th style="width:22%">Subtotal</th>
+                        <th style="width:10%"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-th="Product">
+                            <div>
+                                <div><img src="https://www.rogueeurope.eu/media/catalog/product/cache/5/image/1500x1500/472321edac810f9b2465a359d8cdc0b5/r/o/rogue-black-med-balls-web1.jpg" alt="..." class="img-responsive"/></div>
+                                <div>
+                                    <h4>Producto 1</h4> <br>
+                                                                  </div>
+                            </div>
+                        </td>
+                        <td data-th="Precio">$7.862</td>
+                        <td data-th="Cantidad">
+                            <input type="number" value="1" min="0">
+                        </td>
+                        <td data-th="Subtotal" class="text-center">$7.862</td>
+                        <td data-th="">
+                       
+                        <button type="reset" class="secundario"><i class="fa fa-trash-o"></i></button>
+                           							
+                        </td>
+                    </tr>
+                </tbody>
+                </table>
+
+               <a  href="/"> <button type="submit" class="boton">Comprar</button></a>
+                </div></main>
+<br>
+
+
+<footer>
+    <nav class="footer_nav_bar">
+        <a href="#">Preguntas Frecuentes</a>
+        <div class="redes">
+            <p>Buscanos en las redes </p> 
+            <i class="fas fa-angle-double-right"></i>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-facebook-square"></i></a>
+        </div>
+        <h4 id="copyright">Todos los derechos reservados Sparta Gym S.R.L.</h2>
+    </nav>
+   
+</footer>
+</body>
+</html>
