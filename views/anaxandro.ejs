@@ -10,33 +10,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <section class="logo-and-login-header">
-            
-            <i class="fas fa-bars menu-icono"></i>
-            
-            <a href="/" class="logo">
-            <img  src="/images/logo2.jpg" alt="LOGO">
-            </a>
-
-            <nav class="login-and-cart-icons">
-                <a href="login"><i class="fas fa-user-circle"></i></a>
-                <a href="carrito"><i class="fas fa-shopping-cart"></i></a>
-            </nav>
-        </section>
-
-        <div class="contenedor-banner">
-        <img class="banner" src="/images/banner1.jpg" alt="banner">
-        </div>
-    
-</header>
-
-
-
+    <%- include('partials/header.ejs') %>
     <main>
         <article>
             <h2 class="nombre_producto">Pack Anaxandro</h2>
-            <img src="/images/pack 6 - Kit Pesa Rusa Kettlebell 2 Kg + Banda Circular + Colchoneta - 2500.jpg" alt="producto">
+            <img src="/images/packAnaxandro.JPG" alt="producto">
             <div class="descripcion_producto"> 
                 <h3>Contenido del Pack:</h3>
                 <ul>
@@ -57,18 +35,6 @@
         </article>
     </main>
 
-    <footer>
-        <nav class="footer_nav_bar">
-            <a href="#">Preguntas Frecuentes</a>
-            <div class="redes">
-                <p>Buscanos en las redes </p> 
-                <i class="fas fa-angle-double-right"></i>
-                <a href=""><i class="fab fa-instagram"></i></a>
-                <a href=""><i class="fab fa-facebook-square"></i></a>
-            </div>
-            <h4 id="copyright">Todos los derechos reservados Sparta Gym S.R.L.</h2>
-        </nav>
-       
-    </footer>
+    <%- include('partials/footer.ejs') %>
 </body>
 </html>
