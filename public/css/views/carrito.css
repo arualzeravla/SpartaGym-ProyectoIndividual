@@ -1,0 +1,23 @@
+
+.tabla{
+    
+max-width: 70%;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  padding-left: 5px;
+    
+}
+
+.img-responsive{ 
+   width: 100%;
+}
+.secundario{
+    width: 80%;
+    padding: 8px 12px;
+    margin: 6px 8px; 
+    box-sizing: border-box;
+    background-color: grey;
+    font-size: 1.1rem;
+    color: white;
+}

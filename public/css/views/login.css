@@ -1,0 +1,41 @@
+
+h3{
+    color: #BF1A20;
+    font-size: 22px;
+    margin-top: 15px;
+    text-align: center;
+}
+.contenedor-form{
+    max-width: 45%;
+    margin: auto;
+    padding-bottom: 25px;
+}
+
+.recuerdame{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.main input {
+    width: 100%;
+    padding: 8px;
+    margin: 10px;
+    border: solid black 2px;
+    }
+
+ 
+.main a {
+    margin: 6px 8px
+}            
+
+
+.boton {
+    width: 30%;
+    padding: 8px 12px;
+    margin: 6px 8px; 
+    box-sizing: border-box;
+    background-color:  black;
+    color: white;
+    font-size: 1.1rem;
+}      
